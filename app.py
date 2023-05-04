@@ -1,4 +1,4 @@
-python3 -m pip install tensorflow
+-m pip install tensorflow
 import tensorflow as tf
 from tensorflow import keras
 from keras.models import load_model  # TensorFlow is required for Keras to work
