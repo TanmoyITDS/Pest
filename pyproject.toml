@@ -1,3 +1,9 @@
+[tool.poetry]
+name = "demo-face-gan"
+version = "0.1.0"
+description = "Demonstrates creating faces with a GAN"
+authors = ["Adrien Treuille <adrien.g.treuille@gmail.com>"]
+
 [tool.poetry.dependencies]
 python = ">=3.9"
 streamlit = ">=1.22.0"
