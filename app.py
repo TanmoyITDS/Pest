@@ -1,5 +1,5 @@
-pip install --upgrade pip
-pip install tensorflow
+pip install --ignore-installed --upgrade tensorflow==1.6.0
+pip install keras==2.1.5
 import tensorflow as tf
 from tensorflow import keras
 from keras.models import load_model  # TensorFlow is required for Keras to work
