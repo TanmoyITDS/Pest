@@ -1,6 +1,4 @@
-pip install --user --upgrade tensorboard
-pip install keras==2.1.5
-import tensorboard as tf
+import tensorflow as tf
 from tensorflow import keras
 from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps  # Install pillow instead of PIL
